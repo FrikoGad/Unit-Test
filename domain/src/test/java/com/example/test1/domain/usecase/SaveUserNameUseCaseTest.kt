@@ -15,6 +15,7 @@ class SaveUserNameUseCaseTest {
 
     private val userRepository = mock<UserRepository>()
 
+
     @AfterEach
     fun tearDown() {
         Mockito.reset(userRepository)
